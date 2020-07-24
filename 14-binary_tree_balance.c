@@ -4,7 +4,7 @@
  * @tree: ptr to root node
  *
  * Return: balance
- */
+ **/
 int binary_tree_balance(const binary_tree_t *tree)
 {
 	size_t height_left = 0;
@@ -31,7 +31,7 @@ int binary_tree_balance(const binary_tree_t *tree)
  * @tree: ptr to tree
  *
  * Return: heigth
- */
+ **/
 size_t tree_balance(const binary_tree_t *tree)
 {
 	size_t height_left = 0;
